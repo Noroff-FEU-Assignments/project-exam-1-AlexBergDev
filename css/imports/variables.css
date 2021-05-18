@@ -1,0 +1,18 @@
+/* Global Colors */
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #888888;
+  --dark-grey: #ffffff33;
+  --light-grey: #bbbbbb;
+  --box-line: #f2f2f2;
+  --arctic-blue: #dce2e9;
+  --arctic-gold: #f5ebe2;
+  --medium-blue: #65768c;
+  --dark-blue: #3d5473;
+  --red: #b3193d;
+  --green: #008000;
+  --opacity-black: rgba(0, 0, 0, 0.2);
+  --opacity-white: rgba(255, 255, 255, 0.2);
+  --opacity-button: rgba(255, 255, 255, 0.6);
+}

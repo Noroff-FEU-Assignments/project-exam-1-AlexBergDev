@@ -1,0 +1,44 @@
+input[type="text"],
+textarea {
+  padding: 10px;
+  width: 75%;
+  border: 1px solid var(--grey);
+  background-color: var(--arctic-blue);
+  left: 50%;
+  top: 50%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  border-radius: 0px;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  -webkit-appearance: none;
+}
+
+label {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  text-align: center;
+}
+
+form p {
+  margin: 20px;
+}
+
+/* --- Mobile Styles --- */
+@media only screen and (max-width: 790px) {
+  input[type="text"],
+  textarea {
+    width: 95%;
+    padding: 16px;
+  }
+
+  label {
+    display: flex;
+    justify-content: center;
+  }
+}
